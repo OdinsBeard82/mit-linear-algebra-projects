@@ -10,7 +10,7 @@ This repository contains Python projects, notes, and mini-implementations corres
 
 * **Lecture notes** summarizing key concepts
 * **Python scripts or Jupyter notebooks** implementing lecture topics
-* Optional **visualizations or example outputs**
+* **Optional visualizations or example outputs**
 
 The goal is to reinforce the math concepts while gaining hands-on Python experience applicable to Machine Learning and AI. All projects are part of a structured **12-month AI / ML study path**.
 
@@ -18,16 +18,18 @@ The goal is to reinforce the math concepts while gaining hands-on Python experie
 
 ## Lectures Included
 
-1. **Lecture 1: The Geometry of Linear Equations** – Understanding solution spaces and visualizing systems of equations.
-2. **Lecture 2: Elimination with Matrices** – Implementing Gaussian elimination in Python.
-3. **Lecture 3: Multiplication and Inverse Matrices** – (to be added)
-4. **Lecture 4: Factorization into A = LU** – (to be added)
-5. **Lecture 5: Transposes, Permutations, Spaces Rⁿ** – (to be added)
-6. **Lecture 6: Column Space and Nullspace** – (to be added)
-7. **Lecture 7: Solving Ax = 0: Pivot Variables, Special Solutions** – (to be added)
-8. **Lecture 8: Solving Ax = b: Row Reduced Form R** – (to be added)
-9. **Lecture 9: Independence, Basis, and Dimension** – (to be added)
-10. **Lecture 10: The Four Fundamental Subspaces** – (to be added)
+| Lecture                                                       | Status      |
+| ------------------------------------------------------------- | ----------- |
+| Lecture 1: The Geometry of Linear Equations                   | ✅ Completed |
+| Lecture 2: Elimination with Matrices                          | ✅ Completed |
+| Lecture 3: Multiplication and Inverse Matrices                | ✅ Completed |
+| Lecture 4: Factorization into A = LU                          | ✅ Completed |
+| Lecture 5: Transposes, Permutations, Spaces Rⁿ                | ⬜ Upcoming  |
+| Lecture 6: Column Space and Nullspace                         | ⬜ Upcoming  |
+| Lecture 7: Solving Ax = 0: Pivot Variables, Special Solutions | ⬜ Upcoming  |
+| Lecture 8: Solving Ax = b: Row Reduced Form R                 | ⬜ Upcoming  |
+| Lecture 9: Independence, Basis, and Dimension                 | ⬜ Upcoming  |
+| Lecture 10: The Four Fundamental Subspaces                    | ⬜ Upcoming  |
 
 > Lectures and implementations will be added continuously as the study progresses.
 
@@ -37,6 +39,7 @@ The goal is to reinforce the math concepts while gaining hands-on Python experie
 
 * **Python** – core language
 * **NumPy** – numerical computations and matrix operations
+* **SciPy** – linear algebra routines (LU decomposition, etc.)
 * **Jupyter Notebook** – optional interactive exploration
 * **Git** – version control
 
@@ -61,15 +64,35 @@ python linear_systems.py
 
 ---
 
+## Requirements
+
+It’s recommended to use a virtual environment:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+*Example `requirements.txt` content:*
+
+```
+numpy==2.3.4
+scipy==1.16.3
+jupyter
+```
+
+---
+
 ## Learning Path / AI / ML Roadmap
 
 This repository is **Phase 1** of a structured AI / Machine Learning study path:
 
-* **Phase 1:** Python + Linear Algebra (this repo)
-* **Phase 2:** Probability & Statistics
-* **Phase 3:** Core ML algorithms (scikit-learn)
-* **Phase 4:** Deep Learning (TensorFlow / PyTorch)
-* **Phase 5:** Deployment & Portfolio Projects
+1. **Phase 1:** Python + Linear Algebra (this repo)
+2. **Phase 2:** Probability & Statistics
+3. **Phase 3:** Core ML algorithms (scikit-learn)
+4. **Phase 4:** Deep Learning (TensorFlow / PyTorch)
+5. **Phase 5:** Deployment & Portfolio Projects
 
 Each lecture adds practical Python implementations and portfolio-ready code.
 
