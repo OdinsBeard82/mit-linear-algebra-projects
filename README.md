@@ -24,11 +24,11 @@ The goal is to reinforce the math concepts while gaining hands-on Python experie
 | Lecture 2: Elimination with Matrices                          | ✅ Completed |
 | Lecture 3: Multiplication and Inverse Matrices                | ✅ Completed |
 | Lecture 4: Factorization into A = LU                          | ✅ Completed |
-| Lecture 5: Transposes, Permutations, Spaces Rⁿ                | ⬜ Upcoming  |
-| Lecture 6: Column Space and Nullspace                         | ⬜ Upcoming  |
-| Lecture 7: Solving Ax = 0: Pivot Variables, Special Solutions | ⬜ Upcoming  |
-| Lecture 8: Solving Ax = b: Row Reduced Form R                 | ⬜ Upcoming  |
-| Lecture 9: Independence, Basis, and Dimension                 | ⬜ Upcoming  |
+| Lecture 5: Transposes, Permutations, Spaces Rⁿ                | ✅ Completed |
+| Lecture 6: Column Space and Nullspace                         | ✅ Completed |
+| Lecture 7: Solving Ax = 0: Pivot Variables, Special Solutions | ✅ Completed |
+| Lecture 8: Solving Ax = b: Row Reduced Form R                 | ✅ Completed |
+| Lecture 9: Independence, Basis, and Dimension                 | ✅ Completed |
 | Lecture 10: The Four Fundamental Subspaces                    | ⬜ Upcoming  |
 
 > Lectures and implementations will be added continuously as the study progresses.
